@@ -31,7 +31,7 @@ body {
     padding: 0px 25px 0px 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    line-height: 22px;
+    line-height: 25px;
 }
 
 #img-2 {
@@ -39,3 +39,16 @@ body {
     margin: 0% 4%;
 }
 
+.thesolution h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.thesolution p {
+    padding: 0px 25px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 26px;
