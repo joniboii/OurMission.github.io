@@ -16,15 +16,15 @@ body {
     width: 50%;
 }
 
-.introductionparagraph {
+.introduction-paragraph {
     width: 100%;
 }
 
 .todaysproblem h1 {
-    padding: 0px 20px 0px 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     line-height: 30px;
+    text-align: center;
 }
 
 .todaysproblem p {
@@ -33,3 +33,9 @@ body {
     font-size: 15px;
     line-height: 22px;
 }
+
+#img-2 {
+    width: 92%;
+    margin: 0% 4%;
+}
+
