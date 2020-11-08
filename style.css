@@ -43,7 +43,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     line-height: 30px;
-    margin-top: 40px;
+    margin-top: 160px;
     text-align: center;
 }
 
@@ -52,3 +52,33 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 26px;
+}
+
+#para-1 {
+    margin-bottom: 20px;
+}
+
+#img-3 {
+    width: 92%;
+    margin: 0% 4%;
+}
+
+#para-2 {
+    margin-top: 20px;
+}
+
+.makers {
+    margin-top: 70px;
+}
+
+.makers p {
+    padding: 0px 25px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 26px;
+}
+
+#f-para-3 {
+    margin-top: 70px;
+    text-align: center;
+}
