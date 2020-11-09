@@ -16,10 +16,6 @@ body {
     width: 50%;
 }
 
-.introduction-paragraph {
-    width: 100%;
-}
-
 .todaysproblem h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -37,10 +33,6 @@ body {
 #img-2 {
     width: 92%;
     margin: 0% 4%;
-}
-
-.thesolution-paragraph {
-    width: 100%;
 }
 
 .thesolution h2 {
@@ -155,10 +147,6 @@ body {
 }
 
 @media only screen and (min-width: 1030px) {
-    .introduction-paragraph {
-        width: auto;
-    }
-
     .todaysproblem {
         width: 50%;
         float: left;
@@ -185,21 +173,17 @@ body {
         float: right;
     }
 
-    .thesolution-paragraph {
-        width: auto;
-    }
-
     .thesolution h2 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 52px;
         line-height: 30px;
-        margin-top: 1%;
+        margin-top: 2%;
         text-align: left;
         margin-left: 80px;
     }   
 
     .thesolution p {
-        padding: 0px 80px 20px 80px;
+        padding-left: 80px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
         line-height: 40px;
@@ -208,22 +192,24 @@ body {
     #para-1 {
         margin-bottom: 0px;
         float: left;
-        width: 40%;
+        width: 50%;
     }
 
     #img-3 {
         width: 40%;
         margin: 0% 5%;
+        float: right;
     }
 
     #para-2 {
         margin-top: 0px;
         float: left;
-        width: 40%;
+        width: 50%;
     }
 
     .makers {
-        margin-top: 35%;
+        margin-top: 70%;
+        
     }
 
     .makers p {
