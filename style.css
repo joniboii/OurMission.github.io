@@ -39,6 +39,10 @@ body {
     margin: 0% 4%;
 }
 
+.thesolution-paragraph {
+    width: 100%;
+}
+
 .thesolution h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -81,4 +85,156 @@ body {
 #f-para-3 {
     margin-top: 70px;
     text-align: center;
+}
+
+@media only screen and (min-width: 730px) {
+    .todaysproblem h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 52px;
+        line-height: 30px;
+        text-align: left;
+        margin-left: 80px;
+    }
+    
+    .todaysproblem p {
+        padding: 0px 80px 0px 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    #img-2 {
+        width: 80%;
+        margin: 0% 10%;
+    }
+    
+    .thesolution h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 52px;
+        line-height: 30px;
+        margin-top: 250px;
+        text-align: left;
+        margin-left: 80px;
+    }
+    
+    .thesolution p {
+        padding: 0px 80px 20px 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    #para-1 {
+        margin-bottom: 20px;
+    }
+    
+    #img-3 {
+        width: 80%;
+        margin: 0% 10%;
+    }
+    
+    #para-2 {
+        margin-top: 30px;
+    }
+    
+    .makers {
+        margin-top: 150px;
+    }
+    
+    .makers p {
+        padding: 0px 80px 0px 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    
+    #f-para-3 {
+        margin-top: 150px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1030px) {
+    .introduction-paragraph {
+        width: auto;
+    }
+
+    .todaysproblem {
+        width: 50%;
+        float: left;
+        margin-top: 10%;
+        margin-bottom: 24%;
+    }
+
+    .todaysproblem h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 52px;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .todaysproblem p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #img-2 {
+        width: 40%;
+        margin: 0% 5% 15% 5%;
+        float: right;
+    }
+
+    .thesolution-paragraph {
+        width: auto;
+    }
+
+    .thesolution h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 52px;
+        line-height: 30px;
+        margin-top: 1%;
+        text-align: left;
+        margin-left: 80px;
+    }   
+
+    .thesolution p {
+        padding: 0px 80px 20px 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #para-1 {
+        margin-bottom: 0px;
+        float: left;
+        width: 40%;
+    }
+
+    #img-3 {
+        width: 40%;
+        margin: 0% 5%;
+    }
+
+    #para-2 {
+        margin-top: 0px;
+        float: left;
+        width: 40%;
+    }
+
+    .makers {
+        margin-top: 35%;
+    }
+
+    .makers p {
+        padding: 0px 80px 0px 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    #f-para-3 {
+        margin-top: 150px;
+        text-align: center;
+    }
 }
