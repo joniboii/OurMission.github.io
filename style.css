@@ -183,7 +183,7 @@ body {
     }   
 
     .thesolution p {
-        padding-left: 80px;
+        padding-left: 2%;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
         line-height: 40px;
@@ -192,19 +192,19 @@ body {
     #para-1 {
         margin-bottom: 0px;
         float: left;
-        width: 50%;
+        width: 45%;
     }
 
     #img-3 {
         width: 40%;
-        margin: 0% 5%;
+        margin: 0% 3%;
         float: right;
     }
 
     #para-2 {
         margin-top: 0px;
         float: left;
-        width: 50%;
+        width: 45%;
     }
 
     .makers {
@@ -224,3 +224,86 @@ body {
         text-align: center;
     }
 }
+
+@media only screen and (min-width: 2000px) {
+    .todaysproblem {
+        width: 50%;
+        float: left;
+        margin-top: 10%;
+        margin-bottom: 24%;
+    }
+
+    .todaysproblem h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 52px;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .todaysproblem p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #img-2 {
+        width: 40%;
+        margin: 0% 5% 15% 5%;
+        float: right;
+    }
+
+    h2 {
+        padding-top: 60%;
+    }
+
+    .thesolution h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 52px;
+        line-height: 30px;
+        margin-top: 2%;
+        text-align: left;
+    }   
+
+    .thesolution p {
+        padding-left: 2.7%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #para-1 {
+        margin-bottom: 0px;
+        float: left;
+        width: 48%;
+    }
+
+    #img-3 {
+        width: 40%;
+        margin: 0% 3%;
+        float: right;
+    }
+
+    #para-2 {
+        margin-top: 0px;
+        float: left;
+        width: 48%;
+    }
+
+    .makers {
+        margin-top: 50%;
+        
+    }
+
+    .makers p {
+        padding: 0px 80px 0px 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    #f-para-3 {
+        margin-top: 150px;
+        text-align: center;
+    }
+}
+
